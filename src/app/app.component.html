@@ -1,0 +1,14 @@
+<div class="container">
+   <form #userForm="ngForm" (ngSubmit)="onFormSubmit(userForm)" class="form">
+    <h3>Sign in</h3>
+	 <div>
+	  Login: <input name="name" ngModel required #userName="ngModel">
+	 </div>
+	 <div>
+	  Passwort: <input name="city" ngModel #userCity="ngModel">
+	 </div>
+	 <div>
+	  <button>Submit</button>
+	 </div>
+   </form>
+</div>
