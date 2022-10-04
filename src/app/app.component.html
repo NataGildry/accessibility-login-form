@@ -2,10 +2,10 @@
    <form #userForm="ngForm" (ngSubmit)="onFormSubmit(userForm)" class="form">
     <span>Sign in</span>
 	 <div>
-	  Login: <input name="loginInput" ngModel required #userName="ngModel">
+	  Login: <input name="loginInput" ngModel class="required" #userName="ngModel">
 	 </div>
 	 <div>
-	  Passwort: <input name="passwortInput" ngModel required #userPasswort="ngModel">
+	  Passwort: <input name="passwortInput" ngModel class="required" #userPasswort="ngModel">
 	 </div>
 	 <div>
 	  <button>Submit</button>
