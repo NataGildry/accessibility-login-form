@@ -15,9 +15,16 @@
   padding-right: 212px;
   box-shadow: 10px 10px 8px black;
 
+  span {
+    font-weight: bold;
+  }
+
   input {
     display: block;
     margin-bottom: 10px;
   }
 }
 
+.checkbox {
+  display: inline!important;
+}
